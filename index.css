@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(243, 226, 229);
+    padding: 0%;
+}
+.margin{
+    margin: 50px;
+}
+.header{
+    
+}
+.header-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+    max-width: 1100px;
+    grid-gap: 10px;
+}
+.header-content-box{
+    background-color: white;
+    width:100%;
+    text-align: center;
+}
+.header-content-box img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.body-top{
+    display: flex;
+    justify-content: center;
+}
+
+.body-top-content{
+    width:1200px;
+    border-radius: 20px;
+    background-color: white;
+}
+.body-top-content-top{
+    display: flex;
+    justify-content: center;
+}
+.body-top-content-top-title{
+
+}
+.body-top-content-top-button{
+    
+}
+.body-top-content-bottom{
+    display: flex;
+    justify-content: center;
+}
+.padding{
+    padding: 10px;
+}
+.body-top-content-bottom td:nth-child(1),td:nth-child(2){
+    width: 200px;
+    text-align: center;
+}
+.body-top-content-bottom td:nth-child(3){
+    width: 700px;
+    text-align: center;
+}
+.body-bottom{
+    display: flex;
+    justify-content: center;
+}
+.body-bottom-content{
+
+}
+.body-bottom-content-top{
+
+}
+.body-bottom-content-top-title{
+    display: inline-block;
+}
+.body-bottom-content-top > button{
+    
+}
+.body-bottom-content-bottom{
+    width: 90%;
+    display: grid;
+    justify-content: center;
+
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+}
+.body-bottom-content-bottom-card{
+    position: relative;
+    background-color: white;
+}
+.body-bottom-content-bottom-card-mark{
+    top: 57%;
+    right: 10%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    position: absolute;
+}
+.body-bottom-content-bottom-card-img > img{
+    width:100%;
+}
